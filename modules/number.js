@@ -1,5 +1,5 @@
 module.exports = {
   getRandomNumber(min, max) {
-    return min + Math.floor(Math.random() * (max - min))
+    return Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min)) + Math.ceil(min))
   }
 }
