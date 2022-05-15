@@ -9,7 +9,6 @@ const names = [
   "Sam",
   "Merry",
   "Pipin",
-  "Boromir",
 ]
 
 module.exports = {
