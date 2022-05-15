@@ -1,3 +1,5 @@
+const { getRandomNumber } = require("./number")
+
 const names = [
   "Gandalf",
   "Aragorn",
@@ -12,7 +14,7 @@ const names = [
 
 module.exports = {
   getRandomName() {
-    const index = Math.floor(Math.random() * names.length)
+    const index = getRandomNumber(names.length)
     return names[index]
   }
 }
