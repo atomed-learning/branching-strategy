@@ -14,7 +14,7 @@ const names = [
 
 module.exports = {
   getRandomName() {
-    const index = getRandomNumber(0, names.length)
+    const index = getRandomNumber(names.length)
     return names[index]
   }
 }
