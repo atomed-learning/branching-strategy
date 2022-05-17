@@ -1,7 +1,7 @@
 const { getRandomNumber } = require("./number")
 
 const names = [
-  "Gandalf",
+  "Gandalf the White",
   "Aragorn",
   "Legolas",
   "Gimli",
