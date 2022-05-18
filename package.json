@@ -1,6 +1,6 @@
 {
   "name": "branching-strategy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "repository": "https://github.com/atomed-learning/branching-strategy.git",
   "author": "Ivan Afonchenko <afon.himself@gmail.com>",
