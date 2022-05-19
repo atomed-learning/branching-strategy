@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/get-name', (req, res) => {
   const name = Name.getRandomName()
-  res.json({ name });
+  res.json({ name, source: 'express' });
 })
 
 app.listen(3000, () => {
