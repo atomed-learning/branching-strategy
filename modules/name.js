@@ -1,6 +1,6 @@
 const { getRandomNumber } = require("./number")
 
-const names = [
+const firstNames = [
   "Gandalf the Grey",
   "Aragorn",
   "Legolas",
@@ -12,9 +12,16 @@ const names = [
   "Faramir",
 ]
 
+const lastNames = [
+  "Smith",
+  "Jones",
+  "Afonchenko",
+]
+
 module.exports = {
   getRandomName() {
-    const index = getRandomNumber(0, names.length)
-    return names[index]
-  }
+    const firstNamesIndex = getRandomNumber(0, firstNames.length)
+    const lastNamesIndex = getRandomNumber(0, lastNames.length)
+    return `${firstNames[firstNamesIndex]} ${lastNames[lastNamesIndex]}`
+  },
 }
