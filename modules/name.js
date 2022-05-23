@@ -5,7 +5,7 @@ const firstNames = [
   "Aragorn",
   "Legolas",
   "Gimli",
-  "Frodo",
+  "Frodo Baggins",
   "Samvel",
   "Merry",
   "Pipin",
