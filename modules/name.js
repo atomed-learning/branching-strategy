@@ -16,6 +16,7 @@ const lastNames = [
   "Smith",
   "Jones",
   "Afonchenko",
+  "Johnson",
 ]
 
 module.exports = {
